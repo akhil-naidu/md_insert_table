@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Ankur"
+  },
+  "description": "Insert tables into MuDoc",
+  "homepage": "https://github.com/akhil-naidu/md_insert_table#readme",
+  "keywords": [
+    "MuDoc"
+  ],
+  "main": "index.js",
+  "name": "md_insert_table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhil-naidu/md_insert_table.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

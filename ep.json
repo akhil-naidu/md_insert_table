@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "name": "tables",
+      "hooks": {
+        "eejsBlock_styles": "md_insert_table/static/js/index:eejsBlock_styles",
+        "eejsBlock_scripts": "md_insert_table/static/js/index:eejsBlock_scripts",
+        "eejsBlock_editbarMenuLeft": "md_insert_table/static/js/index:eejsBlock_editbarMenuLeft",
+        "eejsBlock_timesliderScripts": "md_insert_table/static/js/index:eejsBlock_timesliderScripts",
+        "getLineHTMLForExport": "md_insert_table/export2html:getLineHTMLForExport"
+      },
+      "client_hooks": {
+        "collectContentLineBreak": "md_insert_table/static/js/contentcollector:collectContentLineBreak",
+        "collectContentLineText": "md_insert_table/static/js/contentcollector:collectContentLineText",
+        "aceKeyEvent": "md_insert_table/static/js/datatables:aceKeyEvent",
+        "aceStartLineAndCharForPoint": "md_insert_table/static/js/datatables:aceStartLineAndCharForPoint",
+        "aceEndLineAndCharForPoint": "md_insert_table/static/js/datatables:aceEndLineAndCharForPoint",
+        "aceAttribsToClasses": "md_insert_table/static/js/datatables:aceAttribsToClasses",
+        "acePostWriteDomLineHTML": "md_insert_table/static/js/datatables:acePostWriteDomLineHTML",
+        "aceInitialized": "md_insert_table/static/js/datatables:aceInitialized",
+        "postAceInit": "md_insert_table/static/js/initialisation:postAceInit"
+      }
+    }
+  ]
+}
